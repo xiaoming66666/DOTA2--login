@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOTA-登录</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="images/dota2touxiang.jpg">
+
+</head>
+
+<body>
+    <div class="slider">
+        <ul>
+            <li><a href="#"><img src="images/bg1111.jpg" alt=""></a></li>
+            <!-- <li><a href="#"><img src="images/bg1.png" alt=""></a></li>
+            <li><a href="#"><img src="images/bg2.png" alt=""></a></li>
+            <li><a href="#"><img src="images/bg3.png" alt=""></a></li> -->
+
+        </ul>
+
+        <!-- <div class="arrow">
+            <span class="arrow-left"></span>
+            <span class="arrow-right"></span>
+        </div> -->
+    </div>
+    <script src="lib/jquery-1.12.4.min.js"></script>
+    <script src="login.js"></script>
+
+    <div class="fly">
+        <div class="fly_a">
+            <p>简体中文&nbsp;</p>
+            <p>&nbsp;|&nbsp;</p> &nbsp; <p>&nbsp;English&nbsp;</p>
+        </div>
+    </div>
+
+    <div class="log">
+        <div class="log_top">
+            <div class="log_top_left">登录玩美通行证</div>
+
+        </div>
+        <div class="log_con">
+            <input type="text" class="input-xfat input-xlarge" placeholder="电子邮件地址/手机号">
+            <input type="password" class="input-xfat input-xlarge" placeholder="输入您的密码">
+            <input id="agree" name="m1" type="checkbox" checked>
+            <span class="jz">记住账号</span>
+            <div class="zh"></div>
+            <div class="mm"></div>
+            <button>登录</button>
+            <div class="txz">创建新的完美通行证</div>
+            <div class="f_mm"> 忘记密码？</div>
+            <div class="f_txz">忘记完美通行证？</div>
+        </div>
+        <div class="f_sm">切换&nbsp;/&nbsp;登录</div>
+        <div class="log_code"></div>
+
+    </div>
+    <script src="lib/jquery-1.12.4.min.js"></script>
+    <script>
+        $('.f_sm').click(function () {
+
+            $('.log_con').toggleClass('hide');
+            $('.log_code').toggleClass('show');
+
+        })
+    </script>
+</body>
+
+</html>
